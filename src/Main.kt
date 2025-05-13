@@ -1,12 +1,16 @@
 import java.io.File
 
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-firstSetup()
+    if (!File("./outputPath.txt").exists() || File("./outputPath.txt").length() <= 2) {
+        firstSetup()
+    }
+    setup()
 }
 
+/**
+ * First time setup function
+ */
 fun firstSetup(){
     print("What Is your File Path? ")
     var outDir = File(readln())
@@ -14,6 +18,12 @@ fun firstSetup(){
         println("Path does not exist, or is not a valid directory, please input a new path")
         outDir = File(readln())
     }
-    val tempOutPath = File("./output.txt")
+    val tempOutPath = File("./outputPath.txt")
     tempOutPath.writeText(outDir.getAbsolutePath())
+}
+
+
+fun setup(): String{
+    val outPath = File("./outputPath.txt")
+    return outPath.readLines()[0]
 }
