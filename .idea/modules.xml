@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KotlinSpotiDLProj.iml" filepath="$PROJECT_DIR$/KotlinSpotiDLProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpotiCloudDL.iml" filepath="$PROJECT_DIR$/SpotiCloudDL.iml" />
     </modules>
   </component>
 </project>

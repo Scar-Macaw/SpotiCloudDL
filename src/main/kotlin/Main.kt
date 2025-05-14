@@ -1,5 +1,6 @@
-import java.io.File
+package main.kotlin
 
+import java.io.File
 
 fun main() {
     if (!File("./outputPath.txt").exists() || File("./outputPath.txt").length() <= 2) {

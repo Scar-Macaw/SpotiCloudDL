@@ -1,3 +1,5 @@
+package main.kotlin
+
 class Song {
     var name: String = ""
     var album: String = ""
