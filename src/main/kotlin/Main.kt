@@ -20,11 +20,15 @@ fun firstSetup(){
         outDir = File(readln())
     }
     val tempOutPath = File("./outputPath.txt")
-    tempOutPath.writeText(outDir.getAbsolutePath())
+    tempOutPath.writeText(outDir.absolutePath)
 }
 
 
 fun setup(): String{
     val outPath = File("./outputPath.txt")
     return outPath.readLines()[0]
+}
+
+fun getLink(url: String){
+
 }

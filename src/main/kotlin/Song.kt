@@ -1,6 +1,6 @@
 package main.kotlin
 
-class Song {
+open class Song {
     var name: String = ""
     var album: String = ""
     var artist: String = ""
@@ -9,7 +9,6 @@ class Song {
     var year: Int = 0
     var discNo: Int = 0
 
-    fun getInfo(url: String){
-        //api call url
+    open fun getInfo(url: String) {
     }
 }

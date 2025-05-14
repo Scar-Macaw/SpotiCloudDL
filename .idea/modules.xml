@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KotlinSpotiDLProj.iml" filepath="$PROJECT_DIR$/KotlinSpotiDLProj.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpotiCloudDL.iml" filepath="$PROJECT_DIR$/SpotiCloudDL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpotiCloudDL.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpotiCloudDL.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpotiCloudDL.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpotiCloudDL.test.iml" />
     </modules>
   </component>
 </project>

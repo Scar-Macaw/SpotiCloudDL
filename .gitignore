@@ -33,5 +33,7 @@ bin/
 
 ### Gradle ###
 .gradle/
+
 ### User-specific configurations ###
 /outputPath.txt
+*.log
